@@ -280,39 +280,51 @@ a:hover {
 
 /* =================== CONTACT =================== */
 .contact {
-  background: #00cc88;
-  color: #000;
+  background: #111;
+  color: #e0e0e0;
   text-align: center;
   padding: 3rem 2rem;
+  border-top: 2px solid #00ff9d;
 }
 .contact h2 {
   margin-bottom: 1rem;
+  color: #00ff9d;
 }
 .contact a {
-  color: #000;
+  color: #00ff9d;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 .contact .social {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .contact .social a {
-  margin: 0 0.5rem;
-  transition: color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #00ff9d;
+  transition: all 0.3s ease;
 }
 .contact .social a:hover {
-  color: #333;
+  background: #00ff9d;
+  color: #000;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 255, 157, 0.4);
 }
 
 /* =================== FOOTER =================== */
 footer {
-  background: #00ff9d;
-  color: #0a0a0a;
+  background: #0a0a0a;
+  color: #00ff9d;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 0.9rem;
   font-weight: bold;
-  text-shadow: 0 0 5px #0a0a0a;
+  border-top: 1px solid #222;
 }
 
 /* =================== RESPONSIVE =================== */
